@@ -1,0 +1,40 @@
+ 599_project_GD/
+│
+├── docs/             
+│   ├── outlines     
+│   ├── drafts 
+│   └── final
+│
+├── data/            
+│   ├── raw
+│   │   ├── imagery
+│   │   │   └── summer_bands
+│   │   │   └── fall_bands
+│   │   │   └── winter_bands
+│   │   │   └── spring_bands
+│   │   └── lidar
+│   │   │   └── leaf_on
+│   │   │   └── leaf_on
+│   ├── clean
+│   │   ├── imagery
+│   │   └── lidar
+│   │   
+│   ├── input 
+│   │   ├── raster_stacks
+│   │   └── training_polygons
+│   │   
+│   ├── model_outputs
+│   │   └── output_lidar_01.csv
+│   │   └── output_imagery_01.csv
+│   │   └── output_combo_01.csv
+|
+├── scripts/         
+│   ├── preprocess_data.R
+│   ├── classification_model.R
+│   └── result_visualization.R  
+│
+├── visuals/             
+│   └── boxplot.png.md  
+│
+├── .gitignore       
+├── README.md      
